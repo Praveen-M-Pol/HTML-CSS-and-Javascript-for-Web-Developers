@@ -1,0 +1,60 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#ht {
+    text-align: center;
+}
+.container {
+    width: 100%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container > section {
+    display: inline-block;
+    width: 25%;
+    border: 1px solid black;
+    background-color: rgb(162, 148, 175);
+    margin-top: 2%;
+    margin-left: 2%;
+}
+div.name {
+    float: right;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+div#Chicken {
+    background-color: palevioletred;
+}
+div#Beef {
+    background-color: rgb(150, 30, 30);
+    color: white;
+}
+div#Sushi {
+    background-color: rgb(201, 201, 30);
+}
+div.content {
+    padding: 4%;
+}
+@media only screen and (max-width:992px){
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .container > section {
+        width: 45%;
+        margin-left: 1%;
+    }
+}
+@media only screen and (max-width:768px){
+    .container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .container > section {
+        width: 95%;
+        margin-left: 0%;
+    }
+}
